@@ -1,0 +1,34 @@
+.card{
+    min-width:40%;
+    margin:10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    animation: lol 1s ease;
+}
+.card h2{
+    text-align: center;
+    font-size:xx-large;
+    margin:0;
+    color: rgba(255, 255, 255, 0.801);
+    background-color: rgb(114, 114, 213);
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card hr{
+    border: 1px solid grey;
+    margin:0;
+}
+.card h1{
+    margin: 20%;
+    font-size: 400%;
+    text-align: center;
+    transition: 1s ease;
+    color:rgba(115, 64, 198, 0.568);
+}
+.card h1:hover{
+    transform: scale(2);
+}
+@keyframes lol {
+    from{opacity:0;transform:rotateY(180deg)}
+    to{opacity: 1;transform: rotateY(360deg);}
+}

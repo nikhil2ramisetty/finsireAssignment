@@ -1,0 +1,81 @@
+.reloadButton{
+    width: 70%;
+    margin: auto;
+}
+.reloadButton button{
+    width:100%;
+    padding: 10px;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(93, 91, 230);
+    color: white;
+    transition: 0.5s;
+    margin-bottom:10px;
+    border: none;
+}
+.reloadButton button:hover{
+    background-color: rgb(87, 75, 193);
+    border-radius: 10px;
+}
+.cards{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 30vh;
+    width:70%;
+    margin:auto;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    margin-top: 10px;
+}
+.form input{
+    width:75%;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 30px;;
+}
+.form input:focus{
+    outline: none;
+}
+.form button{
+    font-weight: 700;
+    width:20%;
+    padding: 20px;
+    border: none;
+    font-size: 1.6rem;
+    background-color: cadetblue;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+.form button:hover{
+    background-color: rgb(78, 126, 216);
+}
+.dset{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:auto;
+}
+.Title{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.801);
+    padding:10px;
+    background-color: rgb(114, 114, 213);
+    width:70%;
+    margin:auto;
+    border-radius: 10px;;
+}
